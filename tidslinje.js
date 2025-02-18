@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
 async function runProgram() {
   // 1. Load svg map
   // json data fetch
-  let jsondata = await fetch("tid.json");
-  objekter = await jsondata.json();
+  //let jsondata = await fetch("tid.json");
+  // objekter = await jsondata.json();
 
   // 1. Load svg map
   let mySvg = await fetch("tid.svg");
